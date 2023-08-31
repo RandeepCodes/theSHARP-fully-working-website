@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html>
+<head><meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="description" content="The Sharp - Luxury Hotel Booking"/>
+    <meta name="author" content="aman">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+    <!-- Title of Site -->
+	<title>Dashboard</title>
+	<!-- Favicons -->
+	<link rel="icon" type="image/png" href="assets/img/logo0.png">
+	<!-- Bootstrap CSS -->
+	<link rel="stylesheet" href="assets/css/bootstrap.min.css">
+	<!-- Font Awesome CSS -->
+	<link rel="stylesheet" href="assets/css/all.css">
+	<!-- Animate CSS -->
+	<link rel="stylesheet" href="assets/css/animate.css">
+	<!-- Nice Select CSS -->
+	<link rel="stylesheet" href="assets/css/nice-select.css">
+	<!-- Swiper Bundle CSS -->
+	<link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+	<!-- Magnific Popup CSS -->
+	<link rel="stylesheet" href="assets/css/magnific-popup.css">
+	<!-- Mean Menu CSS -->
+	<link rel="stylesheet" href="assets/css/meanmenu.min.css">
+	<!-- Custom CSS -->
+	<link rel="stylesheet" href="assets/sass/style.css"> 
+    
+    <style>
+       
+
+        .containerview {
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 20px;
+            border: 2px solid #FDDB53;
+            border-radius: 10px;
+            background-color: #f8f9fa;
+        }
+
+        .containerview h2 {
+            text-align: center;
+            margin-bottom: 20px;
+            color: #3498db;
+        }
+
+        .containerview form label {
+            display: block;
+            margin-bottom: 5px;
+            font-weight: bold;
+        }
+
+        .containerview form input[type="text"],
+        .containerview form input[type="email"],
+        .containerview form input[type="password"],
+        .containerview form select {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 15px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+
+        .containerview form input[type="radio"] {
+            margin-right: 5px;
+        }
+
+        .containerview form input[type="submit"] {
+            background-color: #FDDB53;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .containerview form input[type="submit"]:hover {
+            background-color: #2980b9;
+        }
+
+       
+    </style>
+</head>
+<body>
+
+<!-- Header Code -->
+
+
+
+
+	
+	<!-- Header Area Start -->
+	<div class="header__sticky">
+		<div class="header__area">
+		  <div class="container custom__container">
+			<div class="header__area-menubar">
+			  <div class="header__area-menubar-left">
+				<div class="header__area-menubar-left-logo">
+				  <a href="index.html"><img src="assets/img/logo0.png" alt=""></a>
+				  <div class="responsive-menu"></div>
+				</div>
+			  </div>
+       
+			  <div class="header__area-menubar-right">
+				
+			  </div>
+			  <div class="header__area-menubar-right-box">
+				<div class="header__area-menubar-right-box-btn">
+					<a class="theme-btn" href="manager_index.html">Dashboard<i class="fal fa-home"></i></a>
+                    <a class="theme-btn" href="#">Profile<i class="fal fa-user"></i></a>
+				  <a class="theme-btn" href="#">Logout<i class="fal fa-long-arrow-right"></i></a>
+				  
+                  
+				</div>
+			  </div>
+			</div>
+		  </div>
+		</div>
+	  </div>
+
+
+
+  	<!-- Page Banner Start -->
+	  <div class="page__banner" data-background="assets/img/index/dashboard1.jpg">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-12">
+                    <div class="page__banner-title">
+                        <h1></h1>
+                        <div class="page__banner-title-menu">
+                            <p style="color: white; font-size: 40px;">Add an Employee</p>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <title></title>
+</head>
+<body>
+    <div class="spacernew"></div>
+  <div class="containerview">
+    <h2></h2>
+    <form action="add_employee.php" method="post">
+        <label for="employee_fname">First Name:</label>
+        <input type="text" name="employee_fname"><br>
+        <label for="employee_lname">Last Name:</label>
+        <input type="text" name="employee_lname"><br>
+        <label>Gender:</label>
+        <input type="radio" name="gender" value="M"> Male
+        <input type="radio" name="gender" value="F"> Female<br>
+        <label for="employee_type_id">Employee Type:</label>
+        <select name="employee_type_id">
+            
+            <option value="R01">Receptionist</option>
+            <option value="H01">Housekeeper</option>
+          
+        </select><br><br>
+        <label for="salary">Salary:</label>
+        <input type="text" name="salary"><br>
+        <label for="address">Address:</label>
+        <input type="text" name="address"><br>
+        <label for="phone_number">Phone Number:</label>
+        <input type="text" name="phone_number"><br>
+        <label for="email">Email:</label>
+        <input type="email" name="email"><br>
+        <label for="city">City:</label>
+        <input type="text" name="city"><br>
+        <label for="state">State:</label>
+        <input type="text" name="state"><br>
+        <label for="zip">Zip:</label>
+        <input type="text" name="zip"><br>
+        <label for="country">Country:</label>
+        <input type="text" name="country"><br>
+        <label for="password">Password:</label>
+        <input type="password" name="password"><br>
+        <label for="cpassword">Confirm Password:</label>
+        <input type="password" name="cpassword"><br>
+        <input type="submit" value="Add Employee">
+    </form>
+
+    </div>
+    <div class="spacernew"></div>
+
+<!-- Footer Area Start -->	
+<div class="footer__area">
+    <div class="container">
+        <div class="row">
+            <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 sm-mb-30">
+                <div class="footer__area-widget">
+                    <div class="footer__area-widget-about">
+                        <div class="footer__area-widget-about-logo">
+                            <a href="index.html"><img src="assets/img/logo0.png" alt=""></a>
+                        </div>
+                        <p>THE SHARP</p>
+                        <div class="footer__area-widget-about-social">
+                            <ul>
+                                <li><a href="#"><i class="fab fa-facebook-f"></i></a>
+                                </li>
+                                <li><a href="#"><i class="fab fa-twitter"></i></a>
+                                </li>
+            
+                                <li><a href="#"><i class="fab fa-youtube"></i></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 lg-mb-30">
+                <div class="footer__area-widget">
+                    <h5>Information</h5>
+                    <div class="footer__area-widget-contact">
+                        <div class="footer__area-widget-contact-item">
+                            <div class="footer__area-widget-contact-item-icon">
+                                <i class="fal fa-map-marked-alt"></i>
+                            </div>
+                            <div class="footer__area-widget-contact-item-content">									
+                                <span><a href="#">V2S 6T7 Surrey BC</a></span>
+                            </div>
+                        </div>
+                        <div class="footer__area-widget-contact-item">
+                            <div class="footer__area-widget-contact-item-icon">
+                                <i class="fal fa-envelope-open-text"></i>
+                            </div>
+                            <div class="footer__area-widget-contact-item-content">									
+                                <span><a href="mailto:help.info@gamil.com">help.thesharp@gmail.com</a></span>
+                            </div>
+                        </div>
+                        <div class="footer__area-widget-contact-item">
+                            <div class="footer__area-widget-contact-item-icon">
+                                <i class="fal fa-phone-alt"></i>
+                            </div>
+                            <div class="footer__area-widget-contact-item-content">									
+                                <span><a href="tel:+1 (604) 604 0000">+1 (604) 604 0000</a></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            
+        </div>
+    </div>
+    <div class="copyright__area">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-xl-6 col-lg-6 col-md-7 md-mb-10">
+                    <div class="copyright__area-left md-t-center">
+                        <p>Copyright © 2023 <a href="#">TheSharp</a> Website by <a href="#">Group F</a></p>
+                    </div>
+                </div>
+                <div class="col-xl-6 col-lg-6 col-md-5">
+                    <div class="copyright__area-right t-right md-t-center">
+                        <ul>
+                            <li><a href="#">FAQ</a></li>
+                            <li><a href="#">Terms of Use</a></li>
+                            <li><a href="#">Privacy Policy</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Footer Area End -->	
+<!-- Scroll Btn Start -->
+<div class="scroll-up">
+    <svg class="scroll-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102"><path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98" /> </svg>
+</div>
+<!-- Scroll Btn End -->
+<!-- Main JS -->
+<script src="assets/js/jquery-3.6.0.min.js"></script>
+<!-- Bootstrap JS -->
+<script src="assets/js/bootstrap.min.js"></script>
+<!-- Counter Up JS -->
+<script src="assets/js/jquery.counterup.min.js"></script>
+<!-- Popper JS -->
+<script src="assets/js/popper.min.js"></script>
+<!-- Magnific Popup JS -->
+<script src="assets/js/jquery.magnific-popup.min.js"></script>
+<!-- Nice Select JS -->
+<script src="assets/js/jquery.nice-select.min.js"></script>
+<!-- Swiper Bundle JS -->
+<script src="assets/js/swiper-bundle.min.js"></script>
+<!-- Waypoints JS -->
+<script src="assets/js/jquery.waypoints.min.js"></script>
+<!-- Mean Menu JS -->
+<script src="assets/js/jquery.meanmenu.min.js"></script>
+<!-- Isotope JS -->
+<script src="assets/js/isotope.pkgd.min.js"></script>
+<!-- Custom JS -->
+<script src="assets/js/custom.js"></script>
+
+
+</body>
+</html>
