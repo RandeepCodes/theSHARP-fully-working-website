@@ -1,0 +1,33 @@
+main menu
+https://colorlib.mystagingwebsite.com/download/
+
+select (when hovering or selecting)
+https://github.com/hernansartorio/jquery-nice-select
+
+swiper
+https://swiperjs.com
+
+popper
+http://opensource.org/licenses/MIT
+
+waypoints
+https://github.com/imakewebthings/waypoints/tree/master/lib
+
+nice-select(another selecting UI)
+ https://github.com/hernansartorio/jquery-nice-select
+
+magnific popup
+http://dimsemenov.com/plugins/magnific-popup/
+
+
+jquery
+jQuery v3.6.0 | (c) OpenJS Foundation and other contributors | jquery.org/license
+
+isotope
+https://isotope.metafizzy.co
+
+
+for bootstrap library
+  Bootstrap v5.1.3 (https://getbootstrap.com/)
+  Copyright 2011-2023 The Bootstrap Authors (https://github.com/twbs/bootstrap/graphs/contributors)
+  Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)

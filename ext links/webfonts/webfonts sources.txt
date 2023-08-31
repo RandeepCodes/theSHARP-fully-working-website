@@ -1,0 +1,11 @@
+links for the open-source free web fonts:
+
+1. Roboto: "https://fonts.googleapis.com/css2?family=Roboto&display=swap" 
+2. Open Sans: "https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" 
+3. Lato: "https://fonts.googleapis.com/css2?family=Lato&display=swap" 
+4. Montserrat: "https://fonts.googleapis.com/css2?family=Montserrat&display=swap" 
+5. Poppins: "https://fonts.googleapis.com/css2?family=Poppins&display=swap" 
+6. Raleway: "https://fonts.googleapis.com/css2?family=Raleway&display=swap" 
+7. Nunito: "https://fonts.googleapis.com/css2?family=Nunito&display=swap" 
+8. Ubuntu: "https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" 
+9. Playfair: "https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" 
